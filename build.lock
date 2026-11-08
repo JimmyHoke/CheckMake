@@ -1,0 +1,3 @@
+# checkmake lock file for build.cm: the exact package builds in use. Commit it.
+# Change it with: checkmake add / remove / update
+sodium 1.0.22-2 x86_64-linux-gnu d7340fdc6820fe375fbf1c7cc34e17f76058de6a914ca9dc876cd8d1840c1608

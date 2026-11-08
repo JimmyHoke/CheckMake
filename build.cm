@@ -1,0 +1,8 @@
+# CheckMake build config
+output   = checkmake
+sources  = main.cpp util.cpp config.cpp versions.cpp signing.cpp repo.cpp repoadmin.cpp build.cpp commands.cpp
+flags    = -std=c++17 -Wall -Wextra
+repo     = https://ultraviolet.jimmyhoke.net/checkmake/
+package  = sodium ^1.0.22
+pubkey   = 7bfde7761e51d261dfb09f165dfcf8c5d33075b6a5ee9342ee35f77851bcaae4
+pins     = build.pins

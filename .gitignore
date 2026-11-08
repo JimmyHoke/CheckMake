@@ -1,0 +1,10 @@
+# Build outputs (rebuild with ./checkmake, or `make` to bootstrap)
+/build/
+/checkmake
+/compile_commands.json
+
+# Packages are downloaded from the repo on demand; build.pins records their hashes
+/deps/
+
+# Never commit signing keys
+*.key
